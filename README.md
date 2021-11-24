@@ -10,6 +10,7 @@ Backend (Net5 Web Api)
 
 FrontEnd (React Hook, Axio, Material Ui)
 ***************************************
+
 1:Abrir el proyecto web-efectivo-app en visual studio code.
 2:Generar la instalaccion (npm install)
 3:En el proyecto Frontend abrir la carpeta http y cambiar la URL(axios.defaults.baseURL="?????")
