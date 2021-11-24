@@ -1,0 +1,11 @@
+C:\FilesFTP\ftpDinamo\PagoEfectivo\ModelAdmin\bin\Debug\net5.0\Model.deps.json
+C:\FilesFTP\ftpDinamo\PagoEfectivo\ModelAdmin\bin\Debug\net5.0\Model.dll
+C:\FilesFTP\ftpDinamo\PagoEfectivo\ModelAdmin\bin\Debug\net5.0\ref\Model.dll
+C:\FilesFTP\ftpDinamo\PagoEfectivo\ModelAdmin\bin\Debug\net5.0\Model.pdb
+C:\FilesFTP\ftpDinamo\PagoEfectivo\ModelAdmin\obj\Debug\net5.0\Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\FilesFTP\ftpDinamo\PagoEfectivo\ModelAdmin\obj\Debug\net5.0\Model.AssemblyInfoInputs.cache
+C:\FilesFTP\ftpDinamo\PagoEfectivo\ModelAdmin\obj\Debug\net5.0\Model.AssemblyInfo.cs
+C:\FilesFTP\ftpDinamo\PagoEfectivo\ModelAdmin\obj\Debug\net5.0\Model.csproj.CoreCompileInputs.cache
+C:\FilesFTP\ftpDinamo\PagoEfectivo\ModelAdmin\obj\Debug\net5.0\Model.dll
+C:\FilesFTP\ftpDinamo\PagoEfectivo\ModelAdmin\obj\Debug\net5.0\ref\Model.dll
+C:\FilesFTP\ftpDinamo\PagoEfectivo\ModelAdmin\obj\Debug\net5.0\Model.pdb
