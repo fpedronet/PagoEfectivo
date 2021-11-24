@@ -82,7 +82,7 @@ const FormCrearPromocion = () =>{
                 <BottomNavigation showLabels style={{paddingTop: '8px'}}>
                     <BottomNavigationAction style={{color: '#274c5e'}} label="Regresar" icon={<ArrowBackOutlined color="secondary"/>} onClick={btnRegresar} />
                     <BottomNavigationAction style={{color: '#274c5e'}} label="Nuevo" icon={<AddCircleOutline color="success"/>} />
-                    {model.estado=="CANJEADO"? null : <BottomNavigationAction style={{color: '#274c5e'}} label={model.idPagoEfectivo? "Generar":"Canjear"} icon={<SaveOutlined color="primary"/>} type="submit" onClick={btnGuardar}/>  }         
+                    {model.estado=="CANJEADO"? null : <BottomNavigationAction style={{color: '#274c5e'}} label={model.idPagoEfectivo? "Canjear":"Generar"} icon={<SaveOutlined color="primary"/>} type="submit" onClick={btnGuardar}/>  }         
                 </BottomNavigation>
             </Paper>
 
