@@ -31,11 +31,19 @@ const FormCrearPromocion = () =>{
 
     const btnGuardar = e =>{
         e.preventDefault();
-        dispatch({type : "OPEN_BACKDROP", open : true})        
+        dispatch({
+            type : "OPEN_BACKDROP",
+            open : true
+        })     
         postGenerarCodigoPromocion(model).then(response =>{ 
-            dispatch({type : "OPEN_BACKDROP", open : false})            
+           dispatch({
+                type : "OPEN_BACKDROP",
+                open : false
+            })     
             if(response.status === 200) {
-                btnRegresar();
+                if(response.data.tipoRespuesta!=2){
+                    btnRegresar();
+                }               
             }
             dispatch({
                     type : "OPEN_SNACKBAR",
@@ -72,6 +80,16 @@ const FormCrearPromocion = () =>{
         history.push("/promocion");
     }
 
+    const btnNuevo =()=>{
+        history.push("/promocion/create");
+
+        model.idPagoEfectivo='';
+        model.codigoPagoEfectivo='';
+        model.email='';
+        model.nombre= '';
+        model.estado='';
+    }
+    
     useEffect(() => {
         btnObtener();    
     }, []);
@@ -81,7 +99,7 @@ const FormCrearPromocion = () =>{
             <Paper style={{zIndex: '100'}} sx={style.paperboton} elevation={3}>
                 <BottomNavigation showLabels style={{paddingTop: '8px'}}>
                     <BottomNavigationAction style={{color: '#274c5e'}} label="Regresar" icon={<ArrowBackOutlined color="secondary"/>} onClick={btnRegresar} />
-                    <BottomNavigationAction style={{color: '#274c5e'}} label="Nuevo" icon={<AddCircleOutline color="success"/>} />
+                    <BottomNavigationAction style={{color: '#274c5e'}} label="Nuevo" icon={<AddCircleOutline color="success"/>} onClick={btnNuevo}/>
                     {model.estado=="CANJEADO"? null : <BottomNavigationAction style={{color: '#274c5e'}} label={model.idPagoEfectivo? "Canjear":"Generar"} icon={<SaveOutlined color="primary"/>} type="submit" onClick={btnGuardar}/>  }         
                 </BottomNavigation>
             </Paper>
