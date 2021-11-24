@@ -17,5 +17,9 @@ Examen PagoEfectivo (Pasos para ejecutar el proyecto)
   password: @Admin123.
 6. Al entrar al sistema mostrara 2 opciones crear usuario y generar promociones.
 
+Url Publicacion de la demo
+http://52.26.185.136:8010/
+maximo 2 dias estara publicado y luego sera eliminado
+
 
 
