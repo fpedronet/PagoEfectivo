@@ -10,7 +10,7 @@ Examen PagoEfectivo (Pasos para ejecutar el proyecto)
 
 1. Abrir el proyecto web-efectivo-app en visual studio code.
 2. Generar la instalaccion (npm install)
-3. En el proyecto Frontend abrir la carpeta http y cambiar la URL(axios.defaults.baseURL="?????")
+3. En el proyecto Frontend abrir la carpeta http y cambiar la URL(axios.defaults.baseURL="????")
 4. Levantar el proyecto (npm start)
 5. La pagina inicio mostrara un login, el usuario es :
   usuario: fcondor.
